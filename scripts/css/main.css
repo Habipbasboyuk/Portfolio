@@ -5,7 +5,7 @@
     --bg-color: #2D2B2B;
     --fg-color: #323131;
 
-
+    --margin-nav: 10rem;
     --margin-s: 0.5rem;
     --margin-m: 1rem;
     --margin-l: 2rem;
@@ -29,12 +29,12 @@
     box-sizing: border-box;
 }
 
-h1, h2 {
+a, h1, h2 {
     font-family: var(--title-font);
     font-weight: 200;
 }
 
-a, p {
+ p {
     font-family: var(--text-font);
     font-weight: 300;
 }
