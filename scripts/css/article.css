@@ -1,0 +1,31 @@
+
+
+.container__article {
+    background-color: var(--fg-color);
+    margin: var(--margin-m);
+    padding: var(--padding-m);
+    
+    &:has(.article__text) {
+        padding-bottom: var(--padding-s);
+    }
+    border-radius: var(--radius-m);
+    box-shadow: 1.5px 1.5px 1.5px 0 var(--bg-color);
+}
+
+.article__title--centered {
+    text-align: center;
+}
+
+.article__title {
+    margin-bottom: var(--margin-m);
+
+}
+.article__title--big {
+    font-size: 2rem;
+    margin-bottom: 0;
+
+}
+
+.article__text {
+    margin-bottom: var(--margin-m);
+}

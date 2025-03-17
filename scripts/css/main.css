@@ -1,0 +1,57 @@
+@import url('navbar.css');
+@import url('article.css');
+
+:root {
+    --bg-color: #2D2B2B;
+    --fg-color: #323131;
+
+
+    --margin-s: 0.5rem;
+    --margin-m: 1rem;
+    --margin-l: 2rem;
+
+    --padding-s: 0.5rem;
+    --padding-m: 1rem;
+    --padding-l: 2rem;
+
+    --text-color: #fff;
+    --title-font: 'Albert Sans', sans-serif;
+    --text-font: 'Playfair';
+
+    --radius-s: 5px;
+    --radius-m: 15px;
+    --radius-l: 25px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    font-family: var(--title-font);
+    font-weight: 200;
+}
+
+a, p {
+    font-family: var(--text-font);
+    font-weight: 300;
+}
+
+a, p, h1, h2 {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+
+
+
+
+
+
+
