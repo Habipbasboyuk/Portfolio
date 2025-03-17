@@ -1,6 +1,6 @@
 @import url('navbar.css');
 @import url('article.css');
-
+@import url('cards.css');
 :root {
     --bg-color: #2D2B2B;
     --fg-color: #323131;

@@ -9,7 +9,7 @@
         padding-bottom: var(--padding-s);
     }
     border-radius: var(--radius-m);
-    box-shadow: 1.5px 1.5px 1.5px 0 var(--bg-color);
+    box-shadow: 3px 3px 11px 1px rgba(0, 0, 0, 0.185);
 }
 
 .article__title--centered {
