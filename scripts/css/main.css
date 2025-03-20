@@ -19,6 +19,7 @@
     --text-color: #fff;
     --title-font: 'Albert Sans', sans-serif;
     --text-font: 'Playfair';
+    --accent-color: #fd783f;
 
     --radius-s: 5px;
     --radius-m: 15px;
@@ -31,7 +32,7 @@
     box-sizing: border-box;
 }
 
-a, h1, h2, label, input {
+a, h1, h2, label, input, button {
     font-family: var(--title-font);
     font-weight: 200;
 }
@@ -41,7 +42,7 @@ a, h1, h2, label, input {
     font-weight: 300;
 }
 
-a, p, h1, h2 {
+a, p, h1, h2, label {
     color: var(--text-color);
     text-decoration: none;
 }
