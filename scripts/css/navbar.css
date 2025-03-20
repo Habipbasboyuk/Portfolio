@@ -1,35 +1,47 @@
 .navbar {
-    background-color: var(--fg-color);
-    margin: var(--margin-m);
-    padding: var(--padding-s);
-    border-radius: 20px;
-    box-shadow: 3px 3px 11px 1px rgba(0, 0, 0, 0.263);
+  background-color: var(--fg-color);
+  margin: var(--margin-m);
+  padding: var(--padding-s);
+  border-radius: 20px;
+  box-shadow: 3px 3px 11px 1px rgba(0, 0, 0, 0.263);
 }
 
-
 .navbar__list {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    
-    gap: 1rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 
-    text-align: center;
+  gap: 1rem;
+
+  text-align: center;
 }
 
 .navbar__list-item {
-    list-style: none;
-
-    
+  list-style: none;
 }
 
 .navbar__link {
-    text-align: center;
+  text-align: center;
 }
 
 .navbar__list-item img {
-    width: 3rem;
-    height: 3rem;
-    object-fit: cover;
-    border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+@media (min-width: 50rem) {
+
+  .navbar {
+    
+    position: sticky;
+        top: 50%;
+        transform: translateY(-50%);
+    padding: var(--padding-l) var(--padding-s);
+  }
+  .navbar__list {
+    flex-direction: column;
+    gap: 3rem;
+  }
 }

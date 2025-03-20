@@ -32,6 +32,10 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
+
 a, h1, h2, label, input, button {
     font-family: var(--title-font);
     font-weight: 200;
@@ -49,6 +53,12 @@ a, p, h1, h2, label {
 
 body {
     background-color: var(--bg-color);
+}
+
+@media(min-width: 50rem) {
+    body {
+       display: flex;
+    }
 }
 
 
