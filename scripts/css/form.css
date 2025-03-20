@@ -5,6 +5,10 @@
     gap: 0.5rem;
 }
 
+.form-group__label {
+    letter-spacing: 0.1rem;
+}
+
 .form-group__input {
     padding: 0.2rem;
     border-radius: var(--radius-s);
@@ -17,7 +21,9 @@
 
 .form-group__button {
     border-radius: var(--radius-s);
-    padding: 0.5rem;
+    padding: 0.8rem;
+    font-size: var(--font-size-m);
+    color: var(--text-color);
     font-weight: 500;
     background-color: var(--accent-color);
     border: none;
