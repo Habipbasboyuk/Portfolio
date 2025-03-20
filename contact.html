@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habip Basboyuk</title>
+    <link rel="stylesheet" href="scripts/css/main.css">
+    <!-- ALBERT SANS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <!-- PLAYFAIR -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li class="navbar__list-item"><img src="./media/images/habip.jpeg" alt="Habip Basboyuk"></li>
+                <li class="navbar__list-item"><a class="navbar__link" href="index.html">Habip Basboyuk</a></li>
+                <li class="navbar__list-item"><a class="navbar__link" href="project.html">Project Pagina</a></li>
+                <li class="navbar__list-item"><a class="navbar__link" href="contact.html">Contact Pagina</a></li>
+                <li class="navbar__list-item"><a class="navbar__link" href="skills.html">Skill Pagina</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="container">
+            <article class="container__article header">
+                <h1 class="article__title article__title--big article__title--centered">Contacteer mij</h1>
+            </article>
+
+            <article class="container__article">
+                <h2 class="article__title">Contact informatie</h2>
+
+                <div class="contact__info">
+                    <img class="contact__icon" src="./media/icons/telephone-signal-svgrepo-com.svg" alt="telephone">
+                    <div>
+                        <p>call me</p> <a href="tel:0488407783">0488407783</a>
+                    </div>
+                </div>
+
+                <div class="contact__info">
+                    <img class="contact__icon" src="./media/icons/email-svgrepo-com.svg" alt="email">
+                    <div>
+                        <p>mail me</p> <a href="mailto:basboyukhabip@gmail.com">basboyukhabip@gmail.com</a>
+                    </div>
+                </div>
+
+                <div class="socials-container">
+                    <h2 class="socials-container__header">Follow me!</h2>
+                    <div class="socials-container__icons">
+                        <a class="socials-container__link" href=""><img class="contact__icon"
+                                src="media/icons/instagram-svgrepo-com.svg" alt="instagram"></a>
+                        <a class="socials-container__link" href=""><img class="contact__icon"
+                                src="media/icons/facebook-svgrepo-com.svg" alt="facebook"></a>
+                        <a class="socials-container__link" href=""><img class="contact__icon"
+                                src="media/icons/linkedin-linked-in-svgrepo-com.svg" alt="linkedin"></a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="container__article">
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </article>
+        </section>
+
+    </main>
+
+    <script src="scripts/js/index.js"></script>
+</body>
+
+</html>

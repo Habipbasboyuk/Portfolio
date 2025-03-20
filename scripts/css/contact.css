@@ -1,0 +1,25 @@
+.contact__icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.contact__info {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0rem;
+    align-items: center;
+}
+
+.socials-container__icons {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.socials-container__header {
+
+    font-size: 1rem;
+    margin: 1rem 0rem;
+    margin-top: 3rem;
+}
+
+
