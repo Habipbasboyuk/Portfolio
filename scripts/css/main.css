@@ -4,6 +4,7 @@
 @import url('contact.css');
 @import url('form.css');
 @import url('grid.css');
+@import url('./animations/view-transitions.css');
 :root {
     --bg-color: #2D2B2B;
     --fg-color: #323131;
