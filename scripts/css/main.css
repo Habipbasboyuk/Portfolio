@@ -3,6 +3,7 @@
 @import url('cards.css');
 @import url('contact.css');
 @import url('form.css');
+@import url('grid.css');
 :root {
     --bg-color: #2D2B2B;
     --fg-color: #323131;
@@ -58,6 +59,11 @@ body {
 @media(min-width: 50rem) {
     body {
        display: flex;
+       height: 100%;
+    }
+
+    main {
+        flex-grow: 1;
     }
 }
 

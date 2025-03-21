@@ -20,12 +20,21 @@
     margin-bottom: var(--margin-m);
 
 }
+
+@media(min-width: 50rem) {
+
+    .container {
+        flex-grow: 2;
+    }
+    .header {
+        font-size: 1.5rem;
+        grid-column: span 2;
+}
+}
+
+
 .article__title--big {
     font-size: 2rem;
     margin-bottom: 0;
 
-}
-
-.article__text {
-    margin-bottom: var(--margin-m);
 }

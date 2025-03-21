@@ -1,0 +1,20 @@
+@media(min-width: 50rem) {
+
+    .container {
+        margin-top: 3rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;/* optioneel voor ruimte tussen kolommen */
+    }
+
+    .grid-article1 {
+        grid-column: 1 / 2;
+    }
+
+    .grid-article2 {
+        grid-row: span 2;
+    }
+
+    .grid-header {
+        grid-column: 1/3;
+    }
+}
