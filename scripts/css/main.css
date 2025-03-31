@@ -5,6 +5,9 @@
 @import url('form.css');
 @import url('grid.css');
 @import url('./animations/view-transitions.css');
+@import url('masking.css');
+@import url('modals.css');
+@import url('darkmode.css');
 :root {
     --bg-color: #2D2B2B;
     --fg-color: #323131;
@@ -14,9 +17,9 @@
     --margin-m: 1rem;
     --margin-l: 2rem;
 
-    --padding-s: 0.5rem;
-    --padding-m: 1rem;
-    --padding-l: 2rem;
+    --padding-s: var(--margin-s);
+    --padding-m: var(--margin-m);
+    --padding-l: var(--margin-l);
 
     --text-color: #fff;
     --title-font: 'Albert Sans', sans-serif;
@@ -28,14 +31,30 @@
     --radius-l: 25px;
 }
 
+.light-mode {
+    --bg-color: #eae4e4;
+    --fg-color: #d1caca;
+    --text-color: #000;
+    --accent-color: var(--bg-color);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html {
+    overflow: hidden;
+}
+
+body {
+    overflow-y: auto;
+}
+
 html, body {
     height: 100%;
+    width: 100%;
 }
 
 a, h1, h2, label, input, button {
@@ -56,6 +75,20 @@ a, p, h1, h2, label {
 body {
     background-color: var(--bg-color);
 }
+
+dialog {
+    border: none;
+    border-radius: var(--radius-m);
+    padding: var(--padding-m);
+    background-color: var(--fg-color);
+    color: var(--text-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 
 @media(min-width: 50rem) {
     body {

@@ -1,0 +1,5 @@
+.mask {
+    background: no-repeat;
+  -webkit-mask-image: linear-gradient(black, transparent);
+  mask-image: linear-gradient (black, transparent);
+}

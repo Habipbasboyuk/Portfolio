@@ -40,12 +40,15 @@
 
 @media (min-width: 50rem) {
 
-
+  header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
   .navbar {
-    position: sticky;
-    top: 50%;
-    transform: translate(0, -10%);
     width: min-content;
     padding: var(--padding-l) var(--padding-s);
   }

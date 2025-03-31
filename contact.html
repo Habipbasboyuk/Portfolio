@@ -30,6 +30,8 @@
                 <li class="navbar__list-item"><a class="navbar__link" href="project.html">Project Pagina</a></li>
                 <li class="navbar__list-item"><a class="navbar__link" href="contact.html">Contact Pagina</a></li>
                 <li class="navbar__list-item"><a class="navbar__link" href="skills.html">Skill Pagina</a></li>
+                <li class="navbar__list-item sun"><img class="contact__icon" src="./media/icons/sun-svgrepo-com.svg" alt="sun"></li>
+                <li class=" navbar__list-item invisible moon"><img class="contact__icon" src="./media/icons/moon-svgrepo-com (1).svg" alt="moon"></li>
             </ul>
         </nav>
 
@@ -37,7 +39,10 @@
 
 
     <main>
-
+    <dialog id="contactDialog" class="dialog">
+        <p class="dialog__message">Bedankt om mij te contacteren. Ik antwoord zo snel mogelijk!</p>
+        <button class="button form-group__button" onclick="document.getElementById('contactDialog').close()">Close</button>
+    </dialog>
         <section class="container">
             <article class="container__article header">
                 <h1 class="article__title article__title--big article__title--centered">Contacteer mij</h1>
@@ -88,7 +93,7 @@
                         <textarea class="form-group__input"  id="message" name="message" rows="4" required></textarea>
                     </div>
                     <div class="form-group">
-                        <button class="form-group__button" type="submit">Submit</button>
+                        <button role="button" class="form-group__button" onclick="document.getElementById('contactDialog').showModal()" type="submit">Submit</button>
                     </div>
                 </form>
             </article>
@@ -96,7 +101,7 @@
 
     </main>
 
-    <script src="scripts/js/index.js"></script>
+    <script src="scripts/js/darkmode.js"></script>
 </body>
 
 </html>

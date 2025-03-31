@@ -20,6 +20,7 @@
 }
 
 .form-group__button {
+    cursor: pointer;
     border-radius: var(--radius-s);
     padding: 0.8rem;
     font-size: var(--font-size-m);

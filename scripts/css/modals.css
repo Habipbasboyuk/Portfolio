@@ -1,0 +1,6 @@
+.dialog {
+    width: 25rem;
+    position: absolute;
+    inset: 50%;
+    transform: translate(-50%, -50%);
+}

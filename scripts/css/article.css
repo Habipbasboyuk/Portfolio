@@ -4,7 +4,6 @@
     background-color: var(--fg-color);
     margin: var(--margin-m);
     padding: var(--padding-m);
-    
     &:has(.article__text) {
         padding-bottom: var(--padding-s);
     }
