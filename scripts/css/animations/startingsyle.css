@@ -28,9 +28,7 @@
   }
   
 
-  @starting-style {
-    .scale-in-navbar {
-      opacity: 0;
-      transform: scale(0.95);
-    }
-  }
+.scale-in-navbar {
+    opacity: 0;
+    transform: scale(0.95);
+}

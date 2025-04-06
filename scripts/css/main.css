@@ -29,6 +29,13 @@
     --text-font: 'Playfair';
     --accent-color: #fd783f;
 
+    --font-size-s: 0.8rem;
+    --font-size-m: 1rem;
+    --font-size-l: 1.5rem;
+    --font-size-xl: 2rem;
+    --font-size-xxl: 3rem;
+
+
     --radius-s: 5px;
     --radius-m: 15px;
     --radius-l: 25px;
