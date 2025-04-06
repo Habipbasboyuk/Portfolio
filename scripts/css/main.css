@@ -8,6 +8,9 @@
 @import url('masking.css');
 @import url('modals.css');
 @import url('darkmode.css');
+@import url('./animations/startingsyle.css');
+
+
 :root {
     --bg-color: #2D2B2B;
     --fg-color: #323131;
@@ -37,6 +40,25 @@
     --text-color: #000;
     --accent-color: var(--bg-color);
 }
+
+.go-main {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    z-index: 1000;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: var(--padding-s);
+    border-radius: var(--radius-s);
+    text-decoration: none;
+    transition: top 0.3s ease;
+
+    &:focus {
+        top: 0;
+        outline: 2px solid var(--accent-color);
+    }
+}
+
 
 * {
     margin: 0;

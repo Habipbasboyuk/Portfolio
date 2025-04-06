@@ -5,6 +5,9 @@
   border-radius: 20px;
   box-shadow: 3px 3px 11px 1px rgba(0, 0, 0, 0.263);
 
+  opacity: 0;
+  transform: scale(0.95);
+  animation: scaleFadeIn 0.8s ease-out forwards;
   view-transition-name: navbar;
 }
 

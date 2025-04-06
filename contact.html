@@ -21,24 +21,25 @@
 </head>
 
 <body>
+    <a class="go-main" href="#main">Ga naar het menu</a>
     <header>
 
-        <nav class="navbar">
+        <nav class="navbar scale-in-navbar">
             <ul class="navbar__list">
                 <li class="navbar__list-item"><img src="./media/images/habip.jpeg" alt="Habip Basboyuk"></li>
                 <li class="navbar__list-item"><a class="navbar__link" href="index.html">Habip Basboyuk</a></li>
                 <li class="navbar__list-item"><a class="navbar__link" href="project.html">Project Pagina</a></li>
                 <li class="navbar__list-item"><a class="navbar__link" href="contact.html">Contact Pagina</a></li>
                 <li class="navbar__list-item"><a class="navbar__link" href="skills.html">Skill Pagina</a></li>
-                <li class="navbar__list-item sun"><img class="contact__icon" src="./media/icons/sun-svgrepo-com.svg" alt="sun"></li>
-                <li class=" navbar__list-item invisible moon"><img class="contact__icon" src="./media/icons/moon-svgrepo-com (1).svg" alt="moon"></li>
+                <li class="navbar__list-item sun"><img class="darkmode__icon" src="./media/icons/sun-svgrepo-com.svg" alt="sun"></li>
+                <li class=" navbar__list-item invisible moon"><img class="darkmode__icon" src="./media/icons/moon-svgrepo-com (1).svg" alt="moon"></li>
             </ul>
         </nav>
 
     </header>
 
 
-    <main>
+    <main id="main">
     <dialog id="contactDialog" class="dialog">
         <p class="dialog__message">Bedankt om mij te contacteren. Ik antwoord zo snel mogelijk!</p>
         <button class="button form-group__button" onclick="document.getElementById('contactDialog').close()">Close</button>
@@ -54,25 +55,25 @@
                 <div class="contact__info">
                     <img class="contact__icon" src="./media/icons/telephone-signal-svgrepo-com.svg" alt="telephone">
                     <div>
-                        <p>call me</p> <a href="tel:0488407783">0488407783</a>
+                        <p>Bel mij</p> <a href="tel:0488407783">0488407783</a>
                     </div>
                 </div>
 
                 <div class="contact__info">
                     <img class="contact__icon" src="./media/icons/email-svgrepo-com.svg" alt="email">
                     <div>
-                        <p>mail me</p> <a href="mailto:basboyukhabip@gmail.com">basboyukhabip@gmail.com</a>
+                        <p>Mail mij</p> <a href="mailto:basboyukhabip@gmail.com">basboyukhabip@gmail.com</a>
                     </div>
                 </div>
 
                 <div class="socials-container">
-                    <h2 class="socials-container__header">Follow me!</h2>
+                    <h2 class="socials-container__header">Volg mij!</h2>
                     <div class="socials-container__icons">
-                        <a class="socials-container__link" href=""><img class="contact__icon"
+                        <a class="socials-container__link" href="https://www.instagram.com/habip.bsyk/" target="_blank"><img class="contact__icon"
                                 src="media/icons/instagram-svgrepo-com.svg" alt="instagram"></a>
-                        <a class="socials-container__link" href=""><img class="contact__icon"
+                        <a class="socials-container__link" href="https://www.facebook.com/aynurbasboyuk1234/" target="_blank"><img class="contact__icon"
                                 src="media/icons/facebook-svgrepo-com.svg" alt="facebook"></a>
-                        <a class="socials-container__link" href=""><img class="contact__icon"
+                        <a class="socials-container__link" href="https://www.linkedin.com/in/habip-basboyuk-5b632632a/" target="_blank"><img class="contact__icon"
                                 src="media/icons/linkedin-linked-in-svgrepo-com.svg" alt="linkedin"></a>
                     </div>
                 </div>
@@ -93,7 +94,7 @@
                         <textarea class="form-group__input"  id="message" name="message" rows="4" required></textarea>
                     </div>
                     <div class="form-group">
-                        <button role="button" class="form-group__button" onclick="document.getElementById('contactDialog').showModal()" type="submit">Submit</button>
+                        <button role="button" class="form-group__button" onclick="document.getElementById('contactDialog').showModal()">Submit</button>
                     </div>
                 </form>
             </article>
